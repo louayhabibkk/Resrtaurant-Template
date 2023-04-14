@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex !important;
+    justify-content: space-around;
+    background-color: black;
+    height: 80px;
+    background-color: black;
+    text-align: center;
+}
+.logo img {
+    height: 95px;
+}
+.menu {
+    padding: 0%;
+}
+.menu  ul , li {
+    justify-content: center;
+    color: beige;
+    list-style: none;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    display: flex;
+    margin-left: 5px;
+}
+.menu  li:hover{
+    background-color: orange;
+    border-radius: 20px;
+}
+.menu {
+    margin-top: auto;
+    margin-bottom:auto ;
+}
+
+.banner {
+    background-image: url(2.png);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+    padding-top: 50px;
+    margin: 0;
+    text-align: center;
+    color: aliceblue;
+} 
+.banner h1 {
+    font-family: 'Alex Brush';font-size: 180px;
+    font-weight: bold;
+    line-height: 1;
+
+}
